@@ -1,0 +1,934 @@
+---
+title: "Learning resources, examples, links for various data science / computer science"
+thume_image: "../../data/images/blog/03.jpg"
+date: "2024-03-03"
+author: "CYBERXBD"
+format: "image"
+quote_text: "Knowledge Article with learning resources, examples, links for various data science / computer science topics."
+categories: 
+    - Development
+tags:
+    - Data
+    - since
+    - Machine
+    - Learning
+is_featured: true
+is_trending_article: true
+---
+
+# Knowledge Repository
+
+Knowledge Article with learning resources, examples, links for various data science / computer science topics
+
+## Contents
+
+- [Knowledge Repository](#knowledge-repository)
+  - [Contents](#contents)
+  - [Other Lists & Study Guides](#other-lists--study-guides)
+  - [Data Science](#data-science)
+    - [Reading](#reading)
+    - [Machine Learning Theory](#machine-learning-theory)
+    - [Python for Data Science (by Framework)](#python-for-data-science-by-framework)
+    - [Python for Data Science (by Topic)](#python-for-data-science-by-topic)
+    - [Data Science Deployment / Production](#data-science-deployment--production)
+    - [R](#r)
+  - [Software Development](#software-development)
+    - [In General](#in-general)
+    - [Python (non-datascience)](#python-non-datascience)
+    - [Rust](#rust)
+    - [Others](#others)
+  - [Systems Design](#systems-design)
+    - [Big Data](#big-data)
+    - [Backend / Deployment / Distributed Systems](#backend--deployment--distributed-systems)
+  - [Web Development](#web-development)
+  - [Reading List](#reading-list)
+  - [Read Archive](#read-archive)
+
+## Other Lists & Study Guides
+
+- [Google Interview University](https://github.com/mhujer/google-interview-university) - Multi-month study plan to becoming a Google software engineer
+- [Dataquest: How to Setup a Data Science Blog](https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/)
+- [Fullstack Web-Developer Path](https://github.com/shovanch/fullstack-web-developer-path)
+- [Frontend Developer Beginner Resources](https://github.com/thedaviddias/Resources-Front-End-Beginner)
+- [Front-End Handbook 2017](https://github.com/FrontendMasters/front-end-handbook-2017)
+- [Path to a free self-taught education in Data Science!](https://github.com/ossu/data-science)
+- [Date Engineer Roadmap 2020](https://github.com/datastacktv/data-engineer-roadmap)
+- [DeepMind Curated Resource List](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf)
+- [Machine Learning Roadmap 2020](https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva)
+- [Machine Learning Mindmap](https://github.com/dformoso/machine-learning-mindmap)
+- [Machine Learning Roadmap](https://github.com/mrdbourke/machine-learning-roadmap)
+- [HN Academy](https://yahnd.com/academy/) online courses recommended by hacker news community
+
+## Data Science
+
+### Reading
+
+- Articles
+  - [You might want to hire a Data Engineer instead of a Data Scientist](https://www.marcel.is/de/)
+  - [7 Steps to mastering SQL for Data Science](http://www.kdnuggets.com/2016/06/seven-steps-mastering-sql-data-science.html)
+  - [AI and Deep Learning: 2017 in Review](http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/)
+  - [Datacamp](https://www.datacamp.com/community/)
+  - [How to get into the Top15 of Kaggle with Python](https://www.dataquest.io/blog/kaggle-tutorial/)
+- Blogs/Webpages
+  - [Sebastian Raschka](https://sebastianraschka.com/)
+  - [Karpathy Blog](http://karpathy.github.io/2015/10/25/selfie/)
+  - [Francois Chollet (keras) Blog](https://blog.keras.io/index.html)
+  - [Dataquest](https://www.dataquest.io/blog/)
+  - [wildml.com](http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/)
+- Books
+  - [Everyday Data Science](https://andrewnc.github.io/blog/everyday_data_science.html)
+- Papers
+  - [Papers With Code](https://paperswithcode.com/sota) - Browse State-of-the-Art Machine Learning Papers
+
+### Machine Learning Theory
+
+- General
+  - [An Overiew of Gradient Descent](http://sebastianruder.com/optimizing-gradient-descent/)
+  - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/)
+  - [Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers)
+  - [Precision and Recall](https://www.wikiwand.com/en/Precision_and_recall)
+  - [Pattern Recognition and Machine Learning (Code examples)](https://github.com/ctgk/PRML) Python codes implementing algorithms described in Bishop's book "Pattern Recognition and Machine Learning"
+  - [Google AI Eduction](https://ai.google/education/) "learn from ML experts at Google"
+- MOOC
+  - [fast.ai](http://www.fast.ai/) - Practical Deep Learning for Coders
+  - [Google ML Crash Crouse](https://developers.google.com/machine-learning/crash-course/) - very crash course
+  - [Hardvard CS109: Data Science](http://cs109.github.io/2015/)
+  - [Stanford CS221: AI](http://web.stanford.edu/class/cs221/)
+  - [Stanford CS224d: Deep Learning for NLP](http://cs224d.stanford.edu/)
+  - [Stanford CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
+  - [Machine Learning Mastery](https://machinelearningmastery.com/)
+  - [Deep Learning with Google (Udacity)](https://de.udacity.com/course/deep-learning--ud730)
+  - [Dive into Deep Learning (berkeley)](http://d2l.ai/chapter_introduction/index.html) Theory & Practice
+  - [mlcourse.ai](https://github.com/Yorko/mlcourse.ai) Open Machine Learning Course (unsupervised learning, tress, feature engineering, boosting etc. - no deep learning)
+  - [Coursera Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning?utm_source=deeplearningai&utm_medium=institutions&utm_campaign=WebsiteCoursesDLSTopButton) deeplearning.ai, Andrew Ng
+  - [Coursera TensorFlow in Practice](https://www.coursera.org/specializations/tensorflow-in-practice)
+  - [Full Stack Deep Learning](https://course.fullstackdeeplearning.com/) bridge the gap from training machine learning models to deploying AI systems in the real world.
+  - [MIT: Computational Thinking](https://www.youtube.com/playlist?list=PLP8iPy9hna6Q2Kr16aWPOKE0dz9OnsnIJ) Math / CV / Julia class with 3blue1brown
+- Prepping the Interview
+  - [Data Science Interview Questions](https://github.com/alexeygrigorev/data-science-interviews)
+  - [160 Data Science Interview Questions](https://hackernoon.com/160-data-science-interview-questions-415s3y2a)
+- Logistic Regression
+  - [Data Science Simplified Part 11: Logistic Regression](https://towardsdatascience.com/data-science-simplified-part-11-logistic-regression-5ae8d994bf0e)
+  - [Instrumental Variables](http://blog.shakirm.com/2018/10/machine-learning-trick-of-the-day-8-instrumental-thinking/)
+- Decision Trees
+  - [Random Forest for complete beginners](<https://victorzhou.com/blog/intro-to-random-forests/>
+- Neural Networks / Deep Learning
+  - [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/) Andrej Karpathy
+  - [deeplearningbook](http://www.deeplearningbook.org/) THE book by Bengio/GoodFellow/Courville. From NN to autoencoders..
+  - [Deep Learning in Neural Networks: An Overview (paywall)](https://www.sciencedirect.com/science/article/pii/S0893608014002135)
+  - [Dive into Deep Learning](https://d2l.ai/)
+  - CNN
+    - ["The Best explanation of NN on the internet"](https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks-on-the-internet-fbb8b1ad5df8)
+    - [Beginner's Guide to Understanding CNN](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/)
+    - [100 Best CNN Videos](http://meta-guide.com/videography/100-best-convolutional-neural-network-videos)
+    - [CNN Explainer](https://github.com/poloclub/cnn-explainer) An interactive visualization system designed to help non-experts learn about Convolutional Neural Networks (CNNs)
+  - Generative Adversarial Networks
+    - [deeplearning4j Introduction](https://getpocket.com/a/read/1994338110)
+- Unsupervised Learning
+  - [Categorical and numeric data](https://www.reddit.com/r/datascience/comments/7e4o9s/what_are_good_approaches_for_unsupervised/)
+- NLP
+  - [How to Solve 90% of NLP Problems: A Step by Step Guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
+  - [EFF: AI Progress Metrics](https://www.eff.org/ai/metrics)
+- Meta-Learning
+  - [Unsupervised Meta-Learning for Few Shot Classification](https://arxiv.org/abs/1803.00676)
+- Imbalanced Classes
+  - [Dealing with Imbalanced Data: Undersampling, Oversampling and Proper CV](https://www.marcoaltini.com/blog/dealing-with-imbalanced-data-undersampling-oversampling-and-proper-cross-validation)
+
+### Python for Data Science (by Framework)
+
+- Basics, Pandas, scikit-learn
+  - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+  - [Missing Data/Imputation in pandas](https://pandas.pydata.org/pandas-docs/stable/missing_data.html)
+  - [Cross-Validation (sklearn)](http://scikit-learn.org/stable/modules/cross_validation.html)
+  - [auto-sklearn](https://automl.github.io/auto-sklearn/stable/)
+  - [out-of-memory dataframes](https://towardsdatascience.com/vaex-out-of-core-dataframes-for-python-and-fast-visualization-12c102db044a)
+- Boosting / Bagging / Trees
+  - xgboost
+    - [Introduction to Boosted Trees](http://xgboost.readthedocs.io/en/latest/model.html)
+    - [Bagging using xgboost](https://github.com/daxiongshu/tradeshift-text-classification)
+  - [catboost](https://github.com/catboost/catboost) A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU
+  - [lightgbm](https://github.com/microsoft/LightGBM) A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.
+- TensorFlow & new Keras (since TF 2.0)
+  - Data Ingest
+    - [Train-Test Split with ImageDataGenerator](https://stackoverflow.com/questions/42443936/keras-split-train-test-set-when-using-imagedatagenerator)
+  - Learn
+    - [TensorFlow-Book](https://github.com/BinRoot/TensorFlow-Book)
+    - [TensorFlow for Machine Intelligence](https://bleedingedgepress.com/tensor-flow-for-machine-intelligence/)
+    - [TensorFlow Machine Learning Curriculum (official)](https://www.tensorflow.org/resources/learn-ml)
+    - [eat TensorFlow 2 in 30 days](https://github.com/lyhue1991/eat_tensorflow2_in_30_days) easily digestible tf 2 book & study plan, includes a lot of the in-depth mechanics
+    - [TensorFlow Developer Certificate](https://www.tensorflow.org/certificate)
+    - [Generating cooking recipes using TensorFlow and LSTM Recurrent Neural Network: A step-by-step guide](https://github.com/trekhleb/machine-learning-experiments/blob/master/assets/recipes_generation.en.md) This article contains details of how the LSTM model was actually trained on Python using TensorFlow 2 with Keras API.
+    - [TensorFlow Roadmap](https://github.com/instillai/TensorFlow-Roadmap#2) 📡 Organized & Useful Resources about Deep Learning with TensorFlow
+    - [Inside TensorFlow](https://engineeringblog.yelp.com/2019/11/inside-tensorflow.html)
+  - Training
+    - [Learning Rate Schedules & Decay](https://www.pyimagesearch.com/2019/07/22/keras-learning-rate-schedules-and-decay/)
+    - [How do I find variable names and values in a checkpoint](https://stackoverflow.com/questions/38218174/how-do-i-find-the-variable-names-and-values-that-are-saved-in-a-checkpoint)
+    - Hyperparameter Optimization
+      - [keras-tuner: hyperparameter optimization](https://keras-team.github.io/keras-tuner/#keras-tuner-documentation)
+      - [hyperas](https://github.com/maxpumperla/hyperas) wrapper around hyperopt for faster prototyping with keras models
+      - [autokeras](https://autokeras.com/) AutoML system based on Keras
+    - Tensorboard
+      - [Tensorboard Distributions and histograms (stackoverflow)](https://stackoverflow.com/questions/42425858/tensorboard-distributions-and-histograms-with-keras-and-fit-generator)
+      - [How to show all my images in tensorboard](https://stackoverflow.com/questions/45584557/how-to-show-all-my-images-in-tensorboard)
+  - Inference
+    - [Improve CPU Inference Performance with intel MKL Libraries](https://software.intel.com/content/www/us/en/develop/articles/maximize-tensorflow-performance-on-cpu-considerations-and-recommendations-for-inference.html)
+  - TF 1.X -> 2.X
+    - [TF 2.0 AutoGraph & Eager mode explained](https://medium.com/ai%C2%B3-theory-practice-business/tensorflow-1-0-vs-2-0-part-1-computational-graphs-4bb6e31c1a0f)
+    - [Effective TensorFlow 2](https://www.tensorflow.org/guide/effective_tf2)
+  - Frameworks & Integration
+    - [ludwig](https://github.com/uber/ludwig) Ludwig is a toolbox built on top of TensorFlow that allows to train and test deep learning models without the need to write code.
+    - TensorOps Arithmetic Helpers / DSL
+      - [TF-Coder](https://blog.tensorflow.org/2020/08/introducing-tensorflow-coder-tool.html) Inductive Programming Library approach to generate (simple) TF-Expressions from Input & Output Data pairs
+      - [Einops](https://github.com/arogozhnikov/einops) DSL with readable, high-level abstractions for tensor operations. Supports numpy, pytorch, tensorflow, and others.
+  - Object Detection
+    - [Hand Detector (Egohands Dataset)](https://towardsdatascience.com/how-to-build-a-real-time-hand-detector-using-neural-networks-ssd-on-tensorflow-d6bac0e4b2ce) - [Code](https://github.com/victordibia/handtracking)
+  - NLP
+    - [CNN for Text Classification](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/#more-452)
+    - [word2vec (TensorFlow Tutorial)](https://www.tensorflow.org/tutorials/word2vec)
+    - [CNN for Text Classifcation (Kim 2014)](https://github.com/dennybritz/cnn-text-classification-tf)
+- Production / Deployment
+  - [TFRT](https://github.com/tensorflow/runtime) A performant and modular runtime for TensorFlow
+  - tensorflowjs
+    - [Deep Learning in your Browser - a brisk guide](https://towardsdatascience.com/deep-learning-in-your-browser-a-brisk-guide-ca06c2198846)
+  - [TensorFlow Lite](https://www.tensorflow.org/lite/)
+- Interpret & Visualize Models
+  - [Interpreting Tensorflow models with tf-explain](https://gilberttanner.com/blog/interpreting-tensorflow-model-with-tf-explain)
+  - [gradio: TensorFlow UI Components](https://github.com/gradio-app/gradio)
+  - [Tensporspace](https://github.com/tensorspace-team/tensorspace) neural network 3D visualization framework built with tensorflowjs
+- [Keras (pre TensorFlow)](http://keras.io/)
+  - Learn
+    - [Deep Learning with Python (Francois Chollet)](https://www.manning.com/books/deep-learning-with-python) - [Code](https://github.com/fchollet/deep-learning-with-python-notebooks)
+    - [Examples](https://github.com/keras-team/keras/tree/master/examples)
+  - Integration
+    - [With Sciikit-learn API](https://keras.io/scikit-learn-api/)
+  - Advanced
+    - [Combining Different Filter Lengths in 1D-Convolutional Layers](https://github.com/keras-team/keras/issues/1023)
+    - [Dynamic k-max Pooling](https://github.com/keras-team/keras/issues/373)
+    - [How to Implement non-static CNN - Kim (2014)](https://github.com/keras-team/keras/issues/1515), [2](https://github.com/keras-team/keras/pull/1994)
+    - [Extract Feature Weights](https://github.com/keras-team/keras/issues/12)
+    - [2D vs 1D Convolutions for Text](https://github.com/keras-team/keras/issues/233)
+    - [Incorporating Word Vectors rather than using an Embedding class](https://github.com/keras-team/keras/issues/853)
+    - [MNIST Transfer Learning](https://github.com/keras-team/keras/blob/master/examples/mnist_transfer_cnn.py)
+- pytorch
+  - [torch2rt](https://github.com/NVIDIA-AI-IOT/torch2trt) An easy to use PyTorch to TensorRT converter
+  - [TorchCV: A PyTorch-Based Framework for Deep Learning in Computer Vision](https://github.com/donnyyou/torchcv)
+  - [botorch](https://github.com/pytorch/botorch) bayesian optimization in pytorch
+
+### Python for Data Science (by Topic)
+
+- Anomaly Detection
+  - [Anomaly Detection, Recommender Systems and Scaling](https://towardsdatascience.com/machine-learning-basics-part-4-anomaly-detection-recommender-systems-and-scaling-b8bbf0413aa9)
+  - [Online anomaly detection](https://stats.stackexchange.com/questions/343579/online-anomaly-detection)
+  - [Cross validation for anomaly detection using autoencoder](https://datascience.stackexchange.com/questions/37396/cross-validation-for-anomaly-detection-using-autoencoder)
+  - [Machine Learning Class Notes Lecture 16: Anomaly Detection¶](https://machine-learning-class-notes.readthedocs.io/en/latest/lecture16.html)
+  - [arXiv: Model Selection for Anomaly Detection](https://arxiv.org/abs/1707.03909)
+- Computer Vision
+  - [What is optical flow and why does it matter in deep learning](https://medium.com/swlh/what-is-optical-flow-and-why-does-it-matter-in-deep-learning-b3278bb205b5)
+  - Action Recognition
+    - [awesome action recognition](https://github.com/jinwchoi/awesome-action-recognition)
+    - [Real-time Action detection demo for the work Actor Conditioned Attention Maps](https://github.com/oulutan/ACAM_Demo)
+    - [2-stream CNN architectures for action detection and recognition with attention filtering](https://github.com/pedro-abreu/twostream-attention)
+    - [action recognition github search](https://github.com/search?q=action+recognition&type=Repositories)
+    - [Real-Time Action Detection](https://github.com/gurkirt/realtime-action-detection)
+    - [temporal action detection with SSN](https://github.com/yjxiong/action-detection)
+    - [Weakly supervised action recognition and detection](https://github.com/wanglimin/UntrimmedNet)
+    - [human action recognition with keras](https://github.com/oswaldoludwig/Human-Action-Recognition-with-Keras)
+    - [cascaded boundary regression for action detection](https://github.com/jiyanggao/CBR)
+    - [action detection dRNN](https://github.com/zkl99999/tensorflow_video_rnn)
+    - [Single-Stream Temporal Action Detection in Untrimmed Videos](https://github.com/shyamal-b/ss-tad)
+    - [Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment](https://github.com/ZhiwenShao/JAANet)
+    - [Co-occurrence Feature Learning from Skeleton Data for Action Recognition and Detection with Hierarchical Aggregation](https://github.com/huguyuehuhu/HCN-pytorch)
+    - [hand-detection motion control](https://github.com/beckabec/HandDetection)
+    - [Cross Dataset framework that both detects actions in a crowded scenes](https://github.com/aelnouby/Cross-Dataset-Action-Detection)
+    - [Graph Distillation for Action Detection](https://github.com/google/graph_distillation)
+    - [Kinect Real-time (Online) Action Detection](https://github.com/AmrSaleh/KinectOnlineActionDetection)
+    - Face
+      - [ROS toolbox face action recognition](https://github.com/cagbal/ros_people_object_detection_tensorflow)
+      - [OpenFace - face action detection](https://github.com/TadasBaltrusaitis/OpenFace)
+      - [deep region and multi-label learning](https://github.com/zkl20061823/DRML)
+      - [Multi-View Dynamic Facial Action Unit Detection](https://github.com/BCV-Uniandes/AUNets)
+      - [Deep Region and Multi-Label Learning for Facial Action Unit Detection](https://github.com/AlexHex7/DRML_pytorch)
+    - Framework
+      - [Videoflow](https://github.com/videoflow/videoflow) Python framework that facilitates the quick development of complex video analysis applications and other series-processing based applications in a multiprocessing environment.
+  - Classification
+    - [Multi-Label Classification using SmallerVGGNet and Keras](https://www.pyimagesearch.com/2018/05/07/multi-label-classification-with-keras)
+  - Face Recognition
+    - [face_recognition](https://github.com/ageitgey/face_recognition) The world's simplest facial recognition api for Python and the command line
+    - [DeepFaceLab](https://github.com/iperov/DeepFaceLab) DeepFaceLab is a tool that utilizes machine learning to replace faces in videos. Includes prebuilt ready to work standalone Windows 7,8,10 binary (look readme.md).
+    - [faceswap](https://github.com/deepfakes/faceswap) Deepfakes Software For All
+  - Object Detection & Image Segmentation
+    - [Detectron2 Framework](https://github.com/facebookresearch/detectron2) Framework; pytorch-based (from facebook)
+    - [Object Removal](https://github.com/zllrunning/video-object-removal) Just draw a bounding box and you can remove the object you want to remove
+  - OCR
+    - [OCR using tesseract and opencv](https://www.learnopencv.com/deep-learning-based-text-recognition-ocr-using-tesseract-and-opencv/)
+- Feature Engineering
+  - [Featuretools](https://www.featuretools.com/) - automatic feature engineering
+- NLP
+  - Models
+    - [Transformers](https://github.com/huggingface/transformers) State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch.
+  - [Topic Modeling with Gensim](https://www.udemy.com/understand-javascript/)
+  - [Text Summarization](https://github.com/chakki-works/sumeval) - sumeval
+  - [State of the art text classification with universal language models](http://nlp.fast.ai/classification/2018/05/15/introducting-ulmfit.html)
+- Speech Recognition
+  - [Speech Recognition in Python](https://realpython.com/python-speech-recognition/)
+- Time Series
+  - [Open ML Course 9: Time Series Analysis in Python](https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-9-time-series-analysis-in-python-a270cb05e0b3)
+  - [A Guide to Time Series Forecasting with ARIMA in Python](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3)
+  - SARIMAX
+    - [Sarimax not converging](https://stats.stackexchange.com/questions/313426/mle-convergence-errors-with-statespace-sarimax)
+- Recommender Systems
+  - [Best practices](https://github.com/microsoft/recommenders)
+- Reinforcement Learning / Games
+  - Environments
+    - [AirSim](https://github.com/microsoft/AirSim) Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research
+    - [RLTrader](https://github.com/notadamking/RLTrader) A cryptocurrency trading environment using deep reinforcement learning and OpenAI's gym
+    - [SafetyGym](https://openai.com/blog/safety-gym/) OpenAPI Gym + Safety constraints
+- Novelty Algorithm
+  - [AutoML Zero](https://github.com/google-research/google-research/tree/master/automl_zero) use Evolutionary Search to discover ML algorithms from scratch using only basic math operations
+
+### Data Science Deployment / Production
+
+- Distributed Learning
+  - [Ray](https://github.com/ray-project/ray) A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning libr…
+
+### R
+
+- [Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
+
+## Software Development
+
+### In General
+
+- [Learnanything](https://learn-anything.xyz/)
+- [learnXinYminutes](https://learnxinyminutes.com/)
+- [devhints](https://devhints.io/)
+- [Learn by example: Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing)
+- Components
+  - [What is a Lambda Function?](https://stackoverflow.com/questions/16501/what-is-a-lambda-function)
+  - [An Intro to Compilers](https://nicoleorchard.com/blog/compilers)
+- Knowledge
+  - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+  - [Things every programmer should know](https://github.com/mr-mig/every-programmer-should-know)
+  - [Naming Conventions](https://www.wikiwand.com/en/Naming_convention_(programming))
+  - [Functional Programming Jargon](https://functional.works-hub.com/blog/Functional-Programming-Jargon)
+  - [Computer Science for Engineers](https://blog.robertelder.org/computer-science-for-engineers/)
+  - Books
+    - [Must Read books for Developers without CS Degree (HN)](https://news.ycombinator.com/item?id=22803780)
+    - [The Art of Computer Programming](https://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043/) "Few programmers have read it from cover to cover, but it remains perhaps the ultimate and authoritative in-depth reference on the subject."
+  - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+  - Algorithms and Data Structures, Coding Interviews
+    - Study Gudies
+      - [geeksforgeeks](https://www.geeksforgeeks.org/data-structures/) theory, examples, practices, study guides
+      - [Coding Interview University](https://github.com/jwasham/coding-interview-university) multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+      - [All algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
+      - [All algorithms implemented in js](https://github.com/trekhleb/javascript-algorithms)
+    - Visualizations
+      - [visualgo](https://visualgo.net/)
+      - [Algorithm visualizer](https://algorithm-visualizer.org/)
+      - [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+    - Books
+      - [Algorithms in C](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080/) 5 part book
+      - [Data Structures and Abstractions with Java (4th edition)](https://www.amazon.com/Data-Structures-Abstractions-Java-4th/dp/0133744051) book
+      - [Problem solving with algorithms and adata structures using python (2nd ed.)](https://www.amazon.com/Problem-Solving-Algorithms-Structures-Python/dp/1590282574)
+    - Competitive Programming
+      - [leet Code](https://leetcode.com/?cong=true)
+      - [hackerrank](https://www.hackerrank.com/)
+    - Advanced
+      - [Introduction to Algorithms (3rd ed.)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/) "The section on algorithmic reasoning is awesome, and it also offers more details on complexity analysis and mathematical tools."
+  - Software Architecture
+    - [The Architecture of Open Source Applications](http://aosabook.org/en/index.html) open source software architects talk about their projects
+    - [Software Architect Roadmap](https://github.com/justinamiller/SoftwareArchitect)
+    - [Software Architecture Patterns](https://www.oreilly.com/programming/free/files/software-architecture-patterns.pdf) - Free O'Reilly Book
+    - [Design Patterns (wikipedia)](https://en.wikipedia.org/wiki/Design_Patterns) The original OOP book
+    - [The C4 Model for visualizing software architecture](https://c4model.com/) "Context, Containers, Components and Code"
+    - [Become a better Software Architect](https://github.com/justinamiller/SoftwareArchitect)
+    - [Software Architecture Guide](https://martinfowler.com/architecture/)
+- Techniques
+  - [How to do a code review](https://google.github.io/eng-practices/review/reviewer/)
+- Git
+  - [Interactive Tutorial](https://try.github.io/)
+- CI/CD
+  - [I am a mediocre Developer](https://dev.to/sobolevn/i-am-a-mediocre-developer--30hn)
+- CLI
+  - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+  - [htop explained](https://peteris.rocks/blog/htop/)
+  - [tldr](https://tldr.ostera.io/) simplified man pages for cli programs
+  - [explainshell](https://www.explainshell.com/) breaks down and tries to explain shell commands & pipes
+  - Bash
+    - [bash guide](http://mywiki.wooledge.org/BashGuide) learn bash
+    - [bash hackers wiki](https://wiki.bash-hackers.org/)
+    - [Conditional constructs](https://www.gnu.org/software/bash/manual/html_node/Conditional-Constructs.html) if statements
+  - [mastering jq](https://codefaster.substack.com/p/mastering-jq-part-1-59c) jq is a command line json parser
+- Tooling
+  - [Analysis-tools.dev](https://analysis-tools.dev/) Compare 483+ Analysis tools for all Languages
+
+### Python (non-datascience)
+
+- Courses / Books
+  - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/) - opinionated guide
+  - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+  - [Full Stack Python](https://www.fullstackpython.com/table-of-contents.html)
+  - [Fluent Python](https://github.com/fluentpython)
+  - [Effective Python](https://effectivepython.com/)
+  - [Python Programming and Numerical Methods: A Guide for Engineers and Scientists](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
+  - [Advanced Python Courses](https://www.dabeaz.com/courses.html)
+- Language Features, Paradigms, Abstractions, Advance Python
+  - [Python 3 Patterns Recipes and Idioms](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Singleton.html)
+  - [Functional Programming in Python](https://www.oreilly.com/programming/free/files/functional-programming-python.pdf)
+  - [Composing Programs](https://www.composingprograms.com/)
+  - [Object Oriented Programming](https://python.swaroopch.com/oop.html)
+  - [What the fck PythoN!](https://github.com/satwikkansal/wtfpython/blob/master/README.md) Exploring and understanding Python through surprising snippets.
+  - [The Little book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/)
+  - [pytudes](https://github.com/norvig/pytudes) Python programs, usually short, for perfecting particular programming skills. by *Peter Norvig*
+  - [pysanity](https://github.com/rednafi/pysanity/) Opinionated Coding Guidelines/philosophy
+  - [How to NEVER use lambdas](https://gist.github.com/MineRobber9000/19c331a9f5d8e994a4ed251f0ffa1e98) An inneficient and yet educatonal [sic] guide to the proper misuse of the lambda construct in Python 3.x [DO NOT USE ANY OF THIS EVER]
+- Basics
+  - [Using Config files](https://martin-thoma.com/configuration-files-in-python/) - YAML, JSON, etc.
+  - [Number Formatting](https://mkaz.blog/code/python-string-format-cookbook/)
+  - [Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+- Algorithms and Data Structures
+  - [All algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
+- Tooling (Testing/Linting/Runtimes/Compiler)
+  - [Numba: A High Performance Python (JIT) compiler](http://numba.pydata.org/)
+  - [Python resources for development](https://gist.github.com/AlmasM/8a05355dbd84029eae03f92c5c61038f)
+  - [Hypermodern Python Dev Environment](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
+  - Type Checking
+    - [Our Journey to type checking..](https://dropbox.tech/application/our-journey-to-type-checking-4-million-lines-of-python) - Dropbox Blog
+    - [Python Type Hints](https://kunigami.blog/2019/12/26/python-type-hints/)
+    - [Monkeytype](https://github.com/instagram/MonkeyType) generates type hints by collecting runtime types
+- Async / Concurrency
+  - [Async Python is not faster](http://calpaterson.com/async-python-is-not-faster.html) - HTTP server benchmarks
+  - [Sync vs. Async Python: What is the Difference?](https://blog.miguelgrinberg.com/post/sync-vs-async-python-what-is-the-difference)
+  - [Asynco IO in Python: A Complete Walkthrough](https://realpython.com/async-io-python/)
+  - [Concurrency Python discussion (hackernews)](https://news.ycombinator.com/item?id=23289563)
+  - [Python concurrency - The tricky bits](https://archive.ph/RQSfH) - An exploration of threads, processes, and coroutines in Python
+- CLI
+  - [Bulding Rich Terminal Dashboards](https://www.willmcgugan.com/blog/tech/post/building-rich-terminal-dashboards/)
+- Django
+  - [GraphQL in Django](https://medium.com/swlh/graphql-in-django-an-overview-51d27e7fceb3)
+  - [How to manage concurrency in Django Models](https://medium.com/@hakibenita/how-to-manage-concurrency-in-django-models-b240fed4ee2)
+  - [Concurrency control in Django model](https://stackoverflow.com/questions/1645269/concurrency-control-in-django-model)
+  - [Django-celery (pypi)](https://pypi.org/project/django-celery/) - Celery Integration for Django
+  - [Django-rq](https://github.com/rq/django-rq) - Django integration for RQ (Redis Queue)
+- Databases
+  - [Introduction to Databases (Stanford)](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)
+  - [Better PostgreSQL testing with Python: announcing pytest-pqsql and pqmock](https://technology.cloverhealth.com/better-postgresql-testing-with-python-announcing-pytest-pgsql-and-pgmock-d0c569d0602a?gi=74ffda2bea7c)
+  - [pytest-postgresql 2.4.0 (pypi)](https://pypi.org/project/pytest-postgresql/)
+  - [Database testing in python, postgresql (stackoverflow)](https://stackoverflow.com/questions/2723406/database-testing-in-python-postgresql)
+  - [Databases (Full Stack Python)](https://www.fullstackpython.com/databases.html)
+    - Database DevOps
+      - [Roundhouse](https://github.com/chucknorris/roundhouse) Database migration tool using version control
+      - [Flyway](https://flywaydb.org/) database version control
+      - [Redgat](https://www.red-gate.com/) Database DevOps Enterprise solution ($$)
+      - [Alembic](https://alembic.sqlalchemy.org/en/latest/) lightweight db migration tool for python sqlalchemy
+      - [pyscopg](https://www.psycopg.org/) postgresql driver for python
+- Telethon (Telegram API Wrapper)
+  - [Telethon API Documentation](https://lonamiwebs.github.io/Telethon/)
+  - [Telegram API Introduction](https://towardsdatascience.com/introduction-to-the-telegram-api-b0cd220dbed2)
+  - [How to Create and Deploy a Telegram Bot](https://djangostars.com/blog/how-to-create-and-deploy-a-telegram-bot/)
+- Webscraping
+  - [Web Scraping 101 with Python](https://www.scrapingbee.com/blog/web-scraping-101-with-python/)
+
+### Rust
+
+- Language
+  - [The Rust Programming Language](https://doc.rust-lang.org/stable/book/) Official Book
+  - [Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/) Companion Examples to the Official Book
+  - [The Rust Reference](https://doc.rust-lang.org/stable/reference/index.html)
+  - [The Rustonomicon](https://doc.rust-lang.org/stable/nomicon/index.html) - The Dark Arts of Unsafe Rust
+  - [easy rust](https://github.com/Dhghomon/easy_rust)
+  - [Hands-On Concurrency with Rust: Confidently build memory-safe, parallel, and efficient software in Rust](https://www.amazon.com/dp/1788399978/ref=as_li_ss_il?tag=book0359-20&ie=UTF8) - Book
+  - [Hands-On Data Structures and Algorithms with Rust](https://www.amazon.com/dp/178899552X/ref=as_li_ss_il?tag=book0359-20&ie=UTF8) - Book
+  - [Programming Rust: Fast, Safe Systems Development](https://www.goodreads.com/book/show/25550614-programming-rust) - ⭐ Supposedly the best book for actual rust programming for experienced software developers
+  - [Learning Rust with entirely too many linked lists](https://rust-unofficial.github.io/too-many-lists/) rust intricacies and idiomatic rust
+  - [rustlings](https://github.com/rust-lang/rustlings) Small exercises to get you used to reading and writing Rust code!
+  - [tl;dr Rust](https://christine.website/blog/TLDR-rust-2020-09-19) quick high-level overview of patterns in Rust (with comparision to Go)
+  - [OMG WTF RS](https://web.archive.org/web/20200923111823/https://ferrous-systems.com/blog/omg-wtf-rs-resources-to-help-you-get-started-with-rust/) helpful rust resources
+  - [CS110L: Safety in Systems Programming](https://reberhardt.com/cs110l/spring-2020/) Stanford undergrad Course
+- Web-Frameworks
+  - [Choosing a Rust Web Framework: 2020 Edition](https://www.lpalmieri.com/posts/2020-07-04-choosing-a-rust-web-framework-2020-edition/)
+- Blog
+  - [Scala Developer Journey Into Rust](http://blog.madhukaraphatak.com/rust-scala-part-1/)
+
+### Others
+
+- C/C++
+  - Learning the Language
+    - [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
+    - [Learn C the Hard Way](https://learncodethehardway.org/c/)
+    - [Modern C](https://modernc.gforge.inria.fr/)
+    - [Learn C in Y minutes](https://learnxinyminutes.com/docs/c/)
+    - [Learn C++ in Y minutes](https://learnxinyminutes.com/docs/c++/)
+    - [Learn C++ by Building a crossword puzzle](https://www.youtube.com/playlist?list=PLg4AoophFZWZ7Llifowo-1WGMVICq-mfw) youtube tutorial series
+  - Algorithms & Data Structures
+    - [Algorithms implemented in C++](https://github.com/priyankchheda/algorithms)
+  - Safety
+    - [awesome-saffety-critical](https://github.com/stanislaw/awesome-safety-critical/blob/master/README.md#coding-guidelines) list of resources about programming practices for writing safety-critical software
+  - Testing
+    - [GoogleTest](https://github.com/google/googletest/) unit test framework
+  - Tooling
+    - [libc](https://westurner.github.io/tools/#libc)
+    - [xeus cling](https://github.com/jupyter-xeus/xeus-cling) jupyter c++ kernel
+- Go
+  - [The ecosystem of the Go programming language](https://henvic.dev/posts/go/) - Proper overview of all resources you would need to get into go
+  - [Practical Go Lessons](https://www.practical-go-lessons.com/) - In depth book about all things go & cs basics
+  - [Learn Go by porting a medium-sized web backend from Python](http://benhoyt.com/writings/learning-go/)
+  - [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/)
+  - [Go by eample](https://gobyexample.com/)
+  - [Using Go modules](https://blog.golang.org/using-go-modules)
+  - [1000+ Hand-Crafted Go Examples, Exercises, and Quizzes](https://github.com/inancgumus/learngo)
+  - [How I write Go HTTP Services after Seven Years](http://archive.today/G0JDY)
+- Haskell
+  - [Learn You a Haskell for Great Good](http://learnyouahaskell.com/)
+  - [Write Yourself a Scheme in 48 Hours](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
+  - [Graham Hutton Haskell YT Lecture](https://www.youtube.com/channel/UCBDp7ydYTHi1dh4Gnf3VTPA) - [course link](http://www.cs.nott.ac.uk/~pszgmh/)
+- Java / Scala
+  - [Awesome Java](https://github.com/akullpp/awesome-java)
+  - [Helsinki MOOC](http://mooc.fi/courses/2013/programming-part-1/)
+  - JSON / Swagger
+    - Jackson
+      - [Swagger and polymorphic type handling with Jackson](http://yysource.com/2016/05/swagger-and-polymorphic-type-handling-with-jackson/)
+      - [Looking for a good example of polymoprrhic serialization/deserialization using jackson](https://stackoverflow.com/questions/17135166/looking-for-a-good-example-of-polymorphic-serialization-deserialization-using-ja/26720380#26720380)
+- JavaScript
+  - [State of JS](https://stateofjs.com/) collecting data from over 20,000 developers to identify current and upcoming trends.
+  - Learn
+    - [ECMAScript 2020 Language Specification](https://www.ecma-international.org/publications/standards/Ecma-262.htm) official docs for the newest js iteration
+    - [Eloquent JavaScript](https://eloquentjavascript.net/) highly recommended js book
+    - [JavaScript for impatient programmers (ES2020 edition)](https://exploringjs.com/impatient-js/)
+    - [you don't know js](https://github.com/getify/You-Dont-Know-JS) deep-dive into js core mechanisms
+    - [Exploring JS](https://exploringjs.com) couple js books which are highly recommended
+    - [Build your own React](https://pomb.us/build-your-own-react/) Project to build a react-clone from scratch
+    - [Mostly adequate guide to FP](https://mostly-adequate.gitbook.io/mostly-adequate-guide/)
+  - Algorithms and Data Structures
+    - [All algorithms implemented in js](https://github.com/trekhleb/javascript-algorithms)
+  - d3.js
+    - [Hitchhiker's Guide to d3.js](https://medium.com/@enjalot/the-hitchhikers-guide-to-d3-js-a8552174733a)
+
+## Systems Design
+
+### Big Data
+
+- Hadoop
+  - [Hadoop - The Definitive Guide (O'Reilly)](http://hadoopbook.com/)
+  - [Hadoop starter kit](http://hadoopinrealworld.com/hadoopstarterkit/) - Free Hadoop Cluster (3 nodes)
+
+### Backend / Deployment / Distributed Systems
+
+- Resources
+  - [awesome-scalability](https://binhnguyennus.github.io/awesome-scalability/) The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+  - [system design primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems
+  - [awesome system design](https://github.com/madd86/awesome-system-design) another list
+- Data Serialization
+  - [Flexbuffers](https://google.github.io/flatbuffers/flexbuffers.html)
+  - [Hackernews Discussion](https://news.ycombinator.com/item?id=23588558)
+  - Protobuf
+    - [Apache Arrow Flight](https://arrow.apache.org/blog/2019/10/13/introducing-arrow-flight/) faster(?) gRPC alternative
+- Docker
+  - [Dockerfile Linting](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/lint-dockerfile.md)
+  - [Clean build-time secrets](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/avoid-build-time-secrets.md)
+  - [Using multi-stage builds](https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/multi_stage_builds.md)
+- Kubernetes
+  - [Magic Sandbox Platform](https://www.msb.com/) Kubernetes Bootcamp & Learning Platform
+  - [Katacoda](https://www.katacoda.com/courses/kubernetes) learn k8s interactively in the browser
+  - [10 most common mistakes using kubernetes](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/)
+  - [Common mistakes using Kubernetes (hackernews)](https://news.ycombinator.com/item?id=23211325)
+  - [A gentle Introduction to Kubernetes](https://medium.com/faun/a-gentle-introduction-to-kubernetes-4961e443ba26)
+  - [Kubernetes YAML Generator](https://k8syaml.com/)
+  - [Pulumi - Kubernetes YAML SDK / Bindings for ts, python, go, ...](https://www.pulumi.com/kubernetes/)
+  - [Validating Kubernetes YAML for best practice and policies](https://learnk8s.io/validating-kubernetes-yaml)
+  - Workflows / Pipelines / Streaming / Message Systems
+    - [Apache Airflow with Kubernetes Executor and MiniKube](https://marclamberti.com/blog/airflow-kubernetes-executor/#Introducing_Apache_Airflow_with_Kubernetes_Executor)
+    - KEDA
+      - [KEDA jobs with Azure Store Queues](https://github.com/tomconte/sample-keda-queue-jobs)
+    - Celery
+      - [Celery + Kubernetes](https://hackernoon.com/https-medium-com-talperetz24-scaling-effectively-when-kubernetes-met-celery-e6abd7ce4fed)
+- nginx
+  - [nginx config generator ui](https://www.digitalocean.com/community/tools/nginx)
+- Caching / In-Memory DB
+  - [KeyDB](https://docs.keydb.dev/blog/2019/10/07/blog-post/) - Multithreaded Redis fork ("5 times faster")
+- Loggin & Monitoring
+  - [Prometheus Basics](https://github.com/yolossn/Prometheus-Basics)
+- RESTful APIs
+  - Tooling
+    - [postwoman](https://github.com/liyasthomas/postwoman) postman alternative
+- Video Streaming
+  - [Building a media streaming server using go and hls protocol](https://hackernoon.com/building-a-media-streaming-server-using-go-and-hls-protocol-j85h3wem)
+
+## Web Development
+
+- [Chrome Dev Tools: Overview](https://developer.chrome.com/devtools)
+- [MDN](https://developer.mozilla.org/en-US/)
+- [QuickDBD](https://www.quickdatabasediagrams.com/)
+- [JSFiddle](https://jsfiddle.net/)
+- [What the Heck is the Event Loop Anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+- Browser Support
+  - [caniuse.com](https://caniuse.com/#search=let)
+- CSS
+  - [BEM](https://smacss.com/book/) - Block Element Modifier Convention
+  - [SMACSS](https://smacss.com/book/) - Scalable and Modular Architecture for CSS Convention
+  - [css-grid](https://drafts.csswg.org/css-grid/) - css grid specification
+- UI
+  - [Adobe Color](https://color.adobe.com/de/create/color-wheel/)
+- UX
+  - [What is User Experience Design?](https://www.smashingmagazine.com/2010/10/what-is-user-experience-design-overview-tools-and-resources/) - Overview, Tools, and Resources
+  - [Usability 101](https://www.nngroup.com/articles/usability-101-introduction-to-usability/)
+  - Testing
+    - [No-Code Regression Tests](https://reflect.run/)
+- Frameworks
+  - [Bootstrap](http://getbootstrap.com/)
+  - [Foundation](http://foundation.zurb.com/)
+- Get Inspired
+  - [Dribbble](https://dribbble.com/)
+  - [Behance](https://www.behance.net/)
+  - [awesome-inspire](https://github.com/NoahBuscher/Inspire)
+
+## Reading List
+
+- [Improve Your Python: Understanding Unit Testing](https://jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/)
+- [http://blog.adnansiddiqi.me/getting-started-with-apache-kafka-in-python/](http://blog.adnansiddiqi.me/getting-started-with-apache-kafka-in-python/)
+- [https://news.ycombinator.com/item?id=17286810](https://news.ycombinator.com/item?id=17286810)
+- [1st Place Solution Summary: CVSSP & Visual Atoms (0.627) | Kaggle](https://www.kaggle.com/c/landmark-retrieval-challenge/discussion/57855?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+- [Multi-label classification with Keras - PyImageSearch](https://www.pyimagesearch.com/2018/05/07/multi-label-classification-with-keras/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+- [Real-time Human Pose Estimation in the Browser with TensorFlow.js](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
+- [https://grunfy.com/scaler.html](https://grunfy.com/scaler.html)
+- [python - Saving and loading objects and using pickle - Stack Overflow](https://stackoverflow.com/questions/4530611/saving-and-loading-objects-and-using-pickle)
+- [https://reddit.com/r/web_design/comments/8p9dmm/favorite_youtube_channels_where_you_can_watch/](https://reddit.com/r/web_design/comments/8p9dmm/favorite_youtube_channels_where_you_can_watch/)
+- [http://www.instructables.com/id/Arduino-Soil-Moisture-Sensor/](http://www.instructables.com/id/Arduino-Soil-Moisture-Sensor/)
+- [https://www.remoteonly.org/](https://www.remoteonly.org/)
+- [https://nickjanetakis.com/blog/how-to-pick-a-good-monitor-for-software-development](https://nickjanetakis.com/blog/how-to-pick-a-good-monitor-for-software-development)
+- [https://www.blog.google/topics/machine-learning/fighting-fire-machine-learning-two-students-use-tensorflow-predict-wildfires/](https://www.blog.google/topics/machine-learning/fighting-fire-machine-learning-two-students-use-tensorflow-predict-wildfires/)
+- [RESTful APIs - An accurate description - Johno the Coder](https://johnothecoder.uk/integration-devleopment/restful-apis-an-accurate-description/)
+- [https://medium.com/@_aerdeljac/learn-how-to-create-a-simple-blog-with-react-node-c05fa6889de3](https://medium.com/@_aerdeljac/learn-how-to-create-a-simple-blog-with-react-node-c05fa6889de3)
+- [The Programmer’s Guide to a Sane Workweek](https://codewithoutrules.com/saneworkweek/)
+- [How to become a part-time programmer: an interview with an expert](https://codewithoutrules.com/2018/01/08/part-time-programmer/)
+- [How I Start.](http://howistart.org/posts/cpp/1/index.html)
+- [Bear - Notes for iPhone, iPad and Mac](http://www.bear-writer.com/)
+- [https://nyti.ms/2GuY9MO](https://nyti.ms/2GuY9MO)
+- [https://news.ycombinator.com/item?id=17097188](https://news.ycombinator.com/item?id=17097188)
+- [Ask HN: Anyone designs financial engineering tools as a hobby? | Hacker New](https://news.ycombinator.com/item?id=17088759)
+- [https://learndigital.withgoogle.com/zukunftswerkstatt/certification?utm_source=Instagram&utm_medium=cpc&utm_content=ig_de_education&utm_campaign=ig_de_education&dclid=CNGC8YXQidsCFUga4AodiUAIHQ](https://learndigital.withgoogle.com/zukunftswerkstatt/certification?utm_source=Instagram&utm_medium=cpc&utm_content=ig_de_education&utm_campaign=ig_de_education&dclid=CNGC8YXQidsCFUga4AodiUAIHQ)
+- [Tradeshift Text Classification | Kaggle](https://www.kaggle.com/c/tradeshift-text-classification/discussion/10537)
+- [https://m.youtube.com/watch?v=GyCv_S42Tak](https://m.youtube.com/watch?v=GyCv_S42Tak)
+- [Creating your own estimator in scikit-learn](http://danielhnyk.cz/creating-your-own-estimator-scikit-learn/)
+- [Trend Analysis Reveals the Most Loved and Hated Cryptocurrencies - Bitcoin](https://news.bitcoin.com/trend-analysis-reveals-loved-hated-cryptocurrencies/)
+- [Learn to Build Web Applications with Flask and Docker](https://buildasaasappwithflask.com/)
+- [Introduction to Decision Tree Learning – Heartbeat](https://heartbeat.fritz.ai/introduction-to-decision-tree-learning-cd604f85e236?source=collection_home---1------0----------------)
+- [keras/mnist_transfer_cnn.py at master · keras-team/keras](https://github.com/keras-team/keras/blob/master/examples/mnist_transfer_cnn.py)
+- [Not another MNIST tutorial with TensorFlow - O'Reilly Media](https://www.oreilly.com/learning/not-another-mnist-tutorial-with-tensorflow)
+- [Number plate recognition with Tensorflow - Matt's ramblings](https://matthewearl.github.io/2016/05/06/cnn-anpr/)
+- [Methylcobalamin and Adenosylcobalamin – Vegan Health](https://veganhealth.org/methylcobalamin-and-adenosylcobalamin/)
+- [https://dev.to/vipinjain/5-keys-to-optimizing-your-code-review-process-341e](https://dev.to/vipinjain/5-keys-to-optimizing-your-code-review-process-341e)
+- [https://dev.to/amangautam/softer-skills-that-make-you-a-better-programmer--2g3e](https://dev.to/amangautam/softer-skills-that-make-you-a-better-programmer--2g3e)
+- [https://dev.to/fabrik42/my-productivity-boosters--a-random-collection-of-tricks-and-tools--what-are-yours-28fm](https://dev.to/fabrik42/my-productivity-boosters--a-random-collection-of-tricks-and-tools--what-are-yours-28fm)
+- [How can I install CUDA 9 on Ubuntu 17.10 - Ask Ubuntu](https://askubuntu.com/questions/967332/how-can-i-install-cuda-9-on-ubuntu-17-10#)
+- [Word2vec Tutorial | RARE Technologies](https://rare-technologies.com/word2vec-tutorial/)
+- [A list of cool Chrome DevTools Tips and Tricks](https://flaviocopes.com/chrome-devtools-tips/)
+- [https://medium.com/@sadatnazrul/the-dos-and-donts-of-principal-component-analysis-7c2e9dc8cc48](https://medium.com/@sadatnazrul/the-dos-and-donts-of-principal-component-analysis-7c2e9dc8cc48)
+- [https://mobile.twitter.com/tmobileat/status/981785213549383680](https://mobile.twitter.com/tmobileat/status/981785213549383680)
+- [https://reddit.com/r/YouShouldKnow/comments/8a9egh/ysk_active_listening_a_technique_developed_by_the/](https://reddit.com/r/YouShouldKnow/comments/8a9egh/ysk_active_listening_a_technique_developed_by_the/)
+- [World's Most Popular API Framework | Swagger](https://swagger.io/)
+- [machine learning - What is the difference between test set and validation s](https://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set)
+- [machine learning - How to use k-fold cross validation in a neural network -](https://stackoverflow.com/questions/25889637/how-to-use-k-fold-cross-validation-in-a-neural-network)
+- [Install Python 3.6 Keras 2.1.5 Tensorflow GPU 1.6 on Windows 10 (3/12/2](https://medium.com/@aiii/install-keras-tensorflow-gpu-1-6-on-windows-10-3-12-2018-4afdedcc196f)
+- [https://hn.premii.com/#/comments/16738817](https://hn.premii.com/#/comments/16738817)
+- [Wrap Your Repo with Anaconda Project – Daftcode Blog](https://blog.daftcode.pl/how-to-wrap-your-repo-with-anaconda-project-c7ee2259ec42)
+- [Managing Python Project with Conda – Little Big Programming – Medium](https://medium.com/small-things-about-python/a-simple-python-workflow-for-devops-85536d514682)
+- [My Python Environment Workflow with Conda | tdhopper.com](https://tdhopper.com/blog/my-python-environment-workflow-with-conda/)
+- [Anaconda-Platform/anaconda-project: Tool for encapsulating, running, and re](https://github.com/Anaconda-Platform/anaconda-project)
+- [https://towardsdatascience.com/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21](https://towardsdatascience.com/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21)
+- [https://reddit.com/r/web_design/comments/88v07j/any_good_blogs_to_read_up_on_trends_in_web_design/](https://reddit.com/r/web_design/comments/88v07j/any_good_blogs_to_read_up_on_trends_in_web_design/)
+- [https://dev.to/rpalo/data-science-cardio-1---weather-20l7](https://dev.to/rpalo/data-science-cardio-1---weather-20l7)
+- [Jane Street Tech Blog - Putting the I back in IDE: Towards a Github Explore](https://blog.janestreet.com/putting-the-i-back-in-ide-towards-a-github-explorer/)
+- [http://www.shortscience.org/paper?bibtexKey=journals/corr/1606.04474](http://www.shortscience.org/paper?bibtexKey=journals/corr/1606.04474)
+- [Data Augmentation Techniques in CNN using Tensorflow](https://medium.com/ymedialabs-innovation/data-augmentation-techniques-in-cnn-using-tensorflow-371ae43d5be9)
+- [Google Cloud Platform Blog: Introducing Cloud Text-to-Speech powered by Dee](https://cloudplatform.googleblog.com/2018/03/introducing-Cloud-Text-to-Speech-powered-by-Deepmind-WaveNet-technology.html)
+- [HN Domain Leaderboard](https://hnleaderboard.com/?)
+- [Background Gradient Colors | Eggradients.com](https://www.eggradients.com/)
+- [A Practical Guide to SVGs on the web](https://svgontheweb.com/)
+- [https://otter-in-a-suit.com/blog/?p=164](https://otter-in-a-suit.com/blog/?p=164)
+- [https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6](https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6)
+- [Five Key Git Concepts Explained the Hard Way – zwischenzugs](https://zwischenzugs.com/2018/03/14/five-key-git-concepts-explained-the-hard-way/)
+- [https://www.learnopencv.com/author/spmallick/](https://www.learnopencv.com/author/spmallick/)
+- [Inter UI font family](https://rsms.me/inter/)
+- [https://thekevinscott.com/common-patterns-for-analyzing-data/](https://thekevinscott.com/common-patterns-for-analyzing-data/)
+- [https://hn.premii.com/#/article/16556732](https://hn.premii.com/#/article/16556732)
+- [https://design.google/library/choosing-web-fonts-beginners-guide/](https://design.google/library/choosing-web-fonts-beginners-guide/)
+- [Asana – Ihre Projektmanagement-Software zur Aufgabenverwaltung & zum Nachve](https://asana.com/de/)
+- [Mathpix](https://mathpix.com/)
+- [AI and Deep Learning in 2017 – A Year in Review – WildML](http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/)
+- [Introduction to Learning to Trade with Reinforcement Learning – WildML](http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/)
+- [Asana-Preise für Premium- und Enterprise-Pläne · Asana](https://asana.com/de/pricing#productTour)
+- [How we built Hamiltix.net for less than $1 a month on AWS | Bad Sector Labs](https://blog.badsectorlabs.com/how-we-built-hamiltixnet-for-less-than-1-a-month-on-aws.html)
+- [Changes over time · Creative Coding](https://creative-coding.decontextualize.com/changes-over-time/)
+- [http://hackingforartists.com/](http://hackingforartists.com/)
+- [A Development Methodology for Deep Learning – Intuition Machine – Medium](https://medium.com/intuitionmachine/a-development-methodology-for-deep-learning-2ce515158bb7)
+- [The Definitive JavaScript Handbook for your next developer interview](https://medium.freecodecamp.org/the-definitive-javascript-handbook-for-a-developer-interview-44ffc6aeb54e?gi=9b231671d6c9)
+- [https://github.com/Mrgemy95/Tensorflow-Project-Template?files=1](https://github.com/Mrgemy95/Tensorflow-Project-Template?files=1)
+- [Modern CSS Explained For Dinosaurs – Actualize – Medium](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
+- [Google Developers Blog: Introduction to TensorFlow Datasets and Estimators](https://developers.googleblog.com/2017/09/introducing-tensorflow-datasets.html)
+- [RPubs - Logistic Regression Coefficients Interpretation](https://rpubs.com/OmaymaS/182726)
+- [https://www.datascienceatthecommandline.com/](https://www.datascienceatthecommandline.com/)
+- [A Beginner’s Guide to Data EngineeringA Beginner’s Guide to Data Engineering  –  Part I](https://www.kdnuggets.com/2018/01/beginners-guide-data-engineering-1.html)
+- [A minimalist guide to tmux | Hacker News](https://news.ycombinator.com/item?id=15776995)
+- [A minimalist guide to tmux – Actualize – Medium](https://medium.com/actualize-network/a-minimalist-guide-to-tmux-13675fb160fa)
+- [Code Less, Think More… Incrementally! – gitconnected](https://levelup.gitconnected.com/code-less-think-more-incrementally-98adee22df9b?ref=HN)
+- [https://www.facebook.com/Engineering/posts/10156072334557200](https://www.facebook.com/Engineering/posts/10156072334557200)
+- [https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
+- [best practice for configuring script (ie. parameter setting) : Python](https://www.reddit.com/r/Python/comments/7se3gl/best_practice_for_configuring_script_ie_parameter/)
+- [(1) What kind of A/B testing questions should I expect in a data scientist](https://www.quora.com/What-kind-of-A-B-testing-questions-should-I-expect-in-a-data-scientist-interview-and-how-should-I-prepare-for-such-questions)
+- [The Problem With Problems – Black n White – Medium](https://medium.com/black-n-white/the-problem-with-problems-47ee63bb3511)
+- [Tutorial: How to label thousands of images using the crowd](https://blog.mturk.com/tutorial-how-to-label-thousands-of-images-using-the-crowd-bea164ccbefc)
+- [Education | Kaggle](https://www.kaggle.com/learn/machine-learning)
+- [Jay Nagpaul - Getting Started With Algorithmic Crypto Trading](https://jaynagpaul.com/algorithmic-crypto-trading)
+- [CS9: Problem-Solving for the CS Technical Interview](https://web.stanford.edu/class/cs9/)
+- [Ask HN: How do I prepare for an interview for AMZ/GOOG/APL/FB? | Hacker New](https://news.ycombinator.com/item?id=16126132)
+- [Stack Overflow Documentation Data Dump : Stack Exchange, Inc. : Free Downlo](https://archive.org/details/documentation-dump.7z)
+- [GoalKicker.com – Free Programming Books](http://goalkicker.com/)
+- [Imposter syndrome](https://brohrer.github.io/imposter_syndrome.html)
+- [Welcome to Java for Python Programmers — Java for Python Programmers](https://runestone.academy/runestone/static/java4python/index.html)
+- [Turning Design Mockups Into Code With Deep Learning - FloydHub Blog](https://blog.floydhub.com/turning-design-mockups-into-code-with-deep-learning/)
+- [https://www.reddit.com/r/webdev/comments/7pfvum/2018s_web_developers_roadmap_this_thing_is/?st=JCA7DW0O&sh=4299652f](https://www.reddit.com/r/webdev/comments/7pfvum/2018s_web_developers_roadmap_this_thing_is/?st=JCA7DW0O&sh=4299652f)
+- [http://www.bbc.co.uk/news/world-us-canada-42614777](http://www.bbc.co.uk/news/world-us-canada-42614777)
+- [Corey Schafer - YouTube - YouTube](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g)
+- [https://www.amazon.com/Java-Programming-Language-4th/dp/0321349806](https://www.amazon.com/Java-Programming-Language-4th/dp/0321349806)
+- [Complete Guide to Topic Modeling - NLP-FOR-HACKERS](https://nlpforhackers.io/topic-modeling/)
+- [Not another MNIST tutorial with TensorFlow - O'Reilly Media](https://www.oreilly.com/learning/not-another-mnist-tutorial-with-tensorflow)
+- [https://www.reddit.com/r/learnjavascript/comments/7o40gv/what_is_the_best_book_to_use_as_a_primary_source/?st=JC1OTWAX&sh=7dc2afe5](https://www.reddit.com/r/learnjavascript/comments/7o40gv/what_is_the_best_book_to_use_as_a_primary_source/?st=JC1OTWAX&sh=7dc2afe5)
+- [CS50 at Harvard](https://cs50.harvard.edu/)
+- [Oh, shit, git!](http://ohshitgit.com/)
+- [Ten years of professional blogging – what I’ve learned | Hacker News](https://news.ycombinator.com/item?id=15954648)
+- [Learn HTML/CSS and JavaScript By Creating A Basic Calculator. Great For Beg](https://www.reddit.com/r/learnprogramming/comments/7khg6x/learn_htmlcss_and_javascript_by_creating_a_basic/)
+- [Ask HN: How can I become a self-taught software engineer? | Hacker News](https://news.ycombinator.com/item?id=15946136)
+- [permalink](https://www.reddit.com/r/javascript/comments/4te15h/es6_angular_react_typescript_nodejs_who_can_help/d5gm3te/)
+- [faq - learnprogramming](https://www.reddit.com//r/learnprogramming/wiki/faq?st=JB3DJMB7&sh=c8980420)
+- [The Smart, the Stupid, and the Catastrophically Scary](https://logicmag.io/01-interview-with-an-anonymous-data-scientist/)
+- [Model–view–controller - Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+- [Text Classification with NLTK and Scikit-Learn · Libelli](https://bbengfort.github.io/tutorials/2016/05/19/text-classification-nltk-sckit-learn.html)
+- [Fermat's Library | Bitcoin: A Peer-to-Peer Electronic Cash System annotated](https://fermatslibrary.com/s/bitcoin)
+- [Enlight](https://tryenlight.github.io/)
+- [Turning Vim Into An R IDE – Kade Killary – Medium](https://medium.com/@kadek/turning-vim-into-an-r-ide-cd9602e8c217)
+- [Automated code review for Python, JavaScript, and CSS. | Lintly](https://lintly.com/)
+- [Syncing a fork - User Documentation](https://help.github.com/articles/syncing-a-fork/)
+- [First Timers Only - Get involved in Open Source and commit code to your fir](http://www.firsttimersonly.com/)
+- [Structuring Your Project — The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/writing/structure/)
+- [Improve Your Python: Python Classes and Object Oriented Programming](https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
+- [python - OOP : Trying to design a good class structure - Stack Overflow](https://stackoverflow.com/questions/39922553/oop-trying-to-design-a-good-class-structure)
+- [A simple example of Python OOP development (with TDD) - Part 1 - The Digita](http://blog.thedigitalcatonline.com/blog/2015/05/13/python-oop-tdd-example-part1/)
+- [Top 15 Python Libraries for Data Science in 2017 – ActiveWizards: machine l](https://medium.com/activewizards-machine-learning-company/top-15-python-libraries-for-data-science-in-in-2017-ab61b4f9b4a7)
+- [Learned to code, got interview at Google but I wish I was told...](http://www.reddit.com/r/learnprogramming/comments/7hb7ka/learned_to_code_got_interview_at_google_but_i/)
+- [How to get crypto-currencies rates and more in Google Sheet](https://jbuty.com/how-to-get-crypto-currencies-rates-and-more-in-google-sheet-1a57e571bc14)
+- [visualization - Sankey Diagrams in R? - Stack Overflow](https://stackoverflow.com/questions/9968433/sankey-diagrams-in-r)
+- [Why CSS Grid is better than Bootstrap for creating layouts](https://hackernoon.com/how-css-grid-beats-bootstrap-85d5881cf163)
+- [https://medium.com/windfalldata/the-data-science-stack-at-windfall-data-e1e6bc3c4c8f](https://medium.com/windfalldata/the-data-science-stack-at-windfall-data-e1e6bc3c4c8f)
+- [http://datawanderings.com/2017/12/01/geek-christmas-best-books-data-scientist/](http://datawanderings.com/2017/12/01/geek-christmas-best-books-data-scientist/)
+- [Jekyll Themes | Made Mistakes](https://mademistakes.com/work/jekyll-themes/)
+- [How I’m Using Jekyll in 2017 | Made Mistakes](https://mademistakes.com/articles/using-jekyll-2017/)
+- [Today I Learned | Made Mistakes](https://mademistakes.com/til/)
+- [visual studio code - how to insert current date time in vscode? - Stack Ove](https://stackoverflow.com/questions/38780057/how-to-insert-current-date-time-in-vscode)
+- [Weekly Machine Learning Opensource Roundup – Nov. 30, 2017 | PocketCluster](https://blog.pocketcluster.io/2017/11/30/weekly-machine-learning-opensource-roundup-nov-30-2017/)
+- [Random forest - Wikipedia](https://en.wikipedia.org/wiki/Random_forest)
+- [AdaBoost - Wikipedia](https://en.wikipedia.org/wiki/AdaBoost)
+- [Introduction to Boosted Trees — xgboost 0.6 documentation](http://xgboost.readthedocs.io/en/latest/model.html)
+- [tradeshift-text-classification/src at master · niderhoff/tradeshift-text-cl](https://github.com/niderhoff/tradeshift-text-classification/tree/master/src)
+- [Mushroom Classification | Kaggle](https://www.kaggle.com/mig555/mushroom-classification)
+- [How to get started with data science in containers | No Free Hunch](http://blog.kaggle.com/2016/02/05/how-to-get-started-with-data-science-in-containers/)
+- [Algorithm Design: Parallel and Sequential](http://www.parallel-algorithms-book.com/)
+- [(1) Minimalistic Social App in few days. | LinkedIn](https://www.linkedin.com/pulse/minimalistic-social-app-few-days-dmitry-amelchenko/)
+- [Machine Learning FAQ](https://sebastianraschka.com/faq/docs/logisticregr-neuralnet.html)
+- [Introduction · IOTA Guide and FAQ](https://matthewwinstonjohnson.gitbooks.io/iota-guide-and-faq/)
+- [Understanding Ethereum Smart Contracts - Gjermund Bjaanes](http://www.gjermundbjaanes.com/understanding-ethereum-smart-contracts/)
+- [How to Solve It - Wikipedia](https://en.wikipedia.org/wiki/How_to_Solve_It)
+- [How to Solve it by Computer - Wikipedia](https://en.wikipedia.org/wiki/How_to_Solve_it_by_Computer)
+- [Hey developers, do you use Stack overflow.? – codeburst](https://codeburst.io/hey-developers-do-you-use-stack-overflow-1886f25d872c)
+- [Seven Clean Steps To Reshape Your Data With Pandas Or How I Use Python Wher](https://towardsdatascience.com/seven-clean-steps-to-reshape-your-data-with-pandas-or-how-i-use-python-where-excel-fails-62061f86ef9c)
+- [The impossibility of intelligence explosion – François Chollet – Medium](https://medium.com/@francois.chollet/the-impossibility-of-intelligence-explosion-5be4a9eda6ec)
+- [Population based training of neural networks | DeepMind](https://deepmind.com/blog/population-based-training-neural-networks/)
+- [permalink](https://www.reddit.com/r/artificial/comments/7fs7dw/what_literature_are_you_reading_to_keep_abreast/dqe2lse/)
+- [Home · Rdatatable/data.table Wiki](https://github.com/Rdatatable/data.table/wiki)
+- [Distill is dedicated to making machine learning clear and dynamic](https://distill.pub/about/)
+- [A Year in Computer Vision](http://www.themtank.org/a-year-in-computer-vision)
+- [Ask HN: How to become the first result of a Google search for a name? | Hac](https://news.ycombinator.com/item?id=15782327)
+- [Lending Club | Looker](https://looker.com/blog/predict-lending-clubs-loan-portfolio-returns-using-hp-vertica-looker-and-distributed-r)
+- [How To Make Windows Fonts Look Like Mac Fonts](http://www.makeuseof.com/tag/make-windows-fonts-look-like-mac-fonts/)
+- [How to make your own trading bot – codeburst](https://codeburst.io/how-to-make-your-own-trading-bot-83b5c6e35036)
+- [Analyzing tf-idf results in scikit-learn - datawerk](https://buhrmann.github.io/tfidf-analysis.html)
+- [More than a Million Pro-Repeal Net Neutrality Comments were Likely Faked](https://medium.com/@jeffykao/more-than-a-million-pro-repeal-net-neutrality-comments-were-likely-faked-e9f0e3ed36a6)
+- [Flask and MongoDB Project. A Simple Reddit Reader](http://www.craigderington.me/flask-and-mongodb-project-a-simple-reddit-reader-2/)
+- [machine learning - What is the difference between test set and validation s](https://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set)
+- [Yet Another Lambda Tutorial | Python Conquers The Universe](https://pythonconquerstheuniverse.wordpress.com/2011/08/29/lambda_tutorial/)
+- [A Guide to Becoming a Full-Stack Developer in 2017 – Coderbyte – Medium](https://medium.com/coderbyte/a-guide-to-becoming-a-full-stack-developer-in-2017-5c3c08a1600c)
+- [Ask HN: Books on specific topics that have applied to many areas of your li](https://news.ycombinator.com/item?id=15761599)
+- [Stop Using word2vec | Stitch Fix Technology – Multithreaded](http://multithreaded.stitchfix.com/blog/2017/10/18/stop-using-word2vec/)
+- [Jekyll CBCD Pipeline to the Cloud - Cloudy Minds](https://zoph.me/cloud/Jekyll-Pipeline-CBCD/)
+- [Dreaming of names with RBMs](https://colinmorris.github.io/blog/dreaming-rbms)
+- [[AI] The fastest way to identify keywords in news articles — TFIDF with Wik](https://hackernoon.com/the-fastest-way-to-identify-keywords-in-news-articles-tfidf-with-wikipedia-python-version-baf874d7eb16)
+- [How to Build a Great Tech Company That VCs Will Love](https://medium.com/marketing-and-entrepreneurship/how-to-build-a-great-tech-company-that-vcs-will-love-93414ebd5f72)
+- [19 Best fonts to use in a terminal emulator as of 2017 - Slant](https://www.slant.co/topics/7014/~fonts-to-use-in-a-terminal-emulator)
+- [101 Best programming fonts as of 2017 - Slant](https://www.slant.co/topics/67/~best-programming-fonts)
+- [Machine Learning Top 10 Articles for the Past Month (v.Nov 2017)](https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-v-nov-2017-3e5c98e6f9aa)
+- [I interviewed at five top companies in Silicon Valley in five days, and luc](https://medium.com/@XiaohanZeng/i-interviewed-at-five-top-companies-in-silicon-valley-in-five-days-and-luckily-got-five-job-offers-25178cf74e0f)
+- [Software 2.0 – Andrej Karpathy – Medium](https://medium.com/@karpathy/software-2-0-a64152b37c35)
+- [Feature Visualization](https://distill.pub/2017/feature-visualization/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+- [Understanding Hinton’s Capsule Networks. Part I: Intuition.](https://medium.com/@pechyonkin/understanding-hintons-capsule-networks-part-i-intuition-b4b559d1159b)
+- [http://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a](http://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a)
+- [https://www.reddit.com/r/programming/comments/7e59fl/how_do_computers_read_code_a_great_video/?st=JA8P32CX&sh=8112f831](https://www.reddit.com/r/programming/comments/7e59fl/how_do_computers_read_code_a_great_video/?st=JA8P32CX&sh=8112f831)
+- [The Incredible Ways Heineken Uses Big Data, The Internet of Things And Arti](https://www.forbes.com/sites/bernardmarr/2017/11/20/the-incredible-ways-heineken-uses-big-data-the-internet-of-things-and-artificial-intelligence-ai/#2a48c541480e)
+- [Nipun Ramakrishnan's answer to Should I memorize the maths and algorithms w](https://www.quora.com/Should-I-memorize-the-maths-and-algorithms-when-learning-machine-learning-and-deep-learning/answer/Nipun-Ramakrishnan?srid=cxp4)
+- [www.deeplearningbook.org/contents/rnn.html](http://www.deeplearningbook.org/contents/rnn.html)
+- [1503.02531.pdf](https://arxiv.org/pdf/1503.02531.pdf)
+- [https://www.reddit.com/r/MachineLearning/comments/7dzh87/d_how_to_build_a_portfolio_as_a_machine/?st=JA79X4JT&sh=1c2080d0](https://www.reddit.com/r/MachineLearning/comments/7dzh87/d_how_to_build_a_portfolio_as_a_machine/?st=JA79X4JT&sh=1c2080d0)
+- [python - How to write a custom estimator in sklearn and use cross-validatio](https://stackoverflow.com/questions/20330445/how-to-write-a-custom-estimator-in-sklearn-and-use-cross-validation-on-it)
+- [A Cookbook for Machine Learning: Vol 1](http://www.inference.vc/design-patterns/)
+- [Dark Mode List](https://www.darkmodelist.com/)
+- [An On-device Deep Neural Network for Face Detection - Apple](https://machinelearning.apple.com/2017/11/16/face-detection.html)
+- [Pachyderm - Scalable, Reproducible Data Science](http://pachyderm.io/)
+- [How to Learn Pandas – Towards Data Science](https://towardsdatascience.com/how-to-learn-pandas-108905ab4955)
+- [Essential Algorithms Every ML Engineer Needs to Know](https://towardsdatascience.com/essential-algorithms-every-ml-engineer-needs-to-know-3167b1e940f)
+- [Regularization in Machine Learning – Towards Data Science](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)
+- [Startup Mistakes: Choice of Datastore - Stavros' Stuff](https://www.stavros.io/posts/startup-mistakes-datastore/)
+- [Exploring AirBnB’s Knowledge Repo: A Curated Knowledge Sharing Platform](https://medium.com/@rbahaguejr/exploring-airbnbs-knowledge-repo-a-curated-knowledge-sharing-platform-ebd8086a093e)
+- [A Guide to Natural Language Processing - Federico Tomassetti - Software Arc](https://tomassetti.me/guide-natural-language-processing/)
+- [Directory Contents](http://files.pushshift.io/)
+- [The Future of Kaggle & Data Science: Quora Session Highlights with Anthony](http://blog.kaggle.com/2016/10/07/the-future-of-kaggle-data-science-quora-session-highlights-with-anthony-goldbloom-kaggle-ceo/)
+- [How to Learn Pandas – Theodore Petrou – Medium](https://medium.com/@petrou.theodore/how-to-learn-pandas-108905ab4955)
+- [CodeTriage](https://www.codetriage.com/)
+- [Machine Learning Algorithms: Which One to Choose for Your Problem](https://www.kdnuggets.com/2017/11/machine-learning-algorithms-choose-your-problem.html)
+- [Run-time method patching in Python - Tryolabs Blog](https://tryolabs.com/blog/2013/07/05/run-time-method-patching-python/)
+- [Use Keras Deep Learning Models with Scikit-Learn in Python - Machine Learni](https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/)
+- [Scaling Knowledge at Airbnb – Airbnb Engineering & Data Science – Medium](https://medium.com/airbnb-engineering/scaling-knowledge-at-airbnb-875d73eff091)
+- [How startups such as Dropbox, Airbnb, Groupon and others acquired their fir](https://www.reddit.com/r/Entrepreneur/comments/2clqa3/how_startups_such_as_dropbox_airbnb_groupon_and/)
+- [Docker for data science, building a simple jupyter container](https://tsaprailis.com/2017/10/10/Docker-for-data-science-part-1-building-jupyter-container/)
+- [A beginner’s guide to Getting Things Done® – Zenkit](https://blog.zenkit.com/a-beginners-guide-to-getting-things-done-3cc1a5123b98)
+- [Stack Overflow Developer Survey 2017](https://insights.stackoverflow.com/survey/2017#technology-languages-over-time)
+- [Analyzing Browser History Using Python and Pandas // AppleCrazy's Blog](https://applecrazy.github.io/blog/posts/analyzing-browser-hist-using-python/)
+- [June 2017 in Numbers](https://blog.whoishiring.io/june-2017-in-numbers/)
+- [https://distill.pub/2017/feature-visualization](https://distill.pub/2017/feature-visualization)
+- [language agnostic - What is a lambda (function)? - Stack Overflow](https://stackoverflow.com/questions/16501/what-is-a-lambda-function)
+- [What to do before you sell or give away your iPhone, iPad, or iPod touch -](https://support.apple.com/en-au/HT201351)
+- [Object-Oriented programming with Java, part I](http://mooc.fi/courses/2013/programming-part-1/)
+- [Learning Go by porting a medium-sized web backend from Python](http://benhoyt.com/writings/learning-go/)
+- [What is a CapsNet or Capsule Network? – Hacker Noon](https://hackernoon.com/what-is-a-capsnet-or-capsule-network-2bfbe48769cc)
+- [udemy-optin](http://hadoopinrealworld.com/hadoopstarterkit/)
+- [Go cheatsheet](https://devhints.io/go)
+- [fast.ai · Making neural nets uncool again](http://www.fast.ai/)
+- [https://www.marcel.is/de/](https://www.marcel.is/de/)
+- [Top 10 Time Series Databases](https://blog.outlyer.com/top10-open-source-time-series-databases)
+- [A Statistical Curiosity Voyage Through the Emotion of Stranger Things](https://medium.com/@jordandworkin/a-statistical-curiosity-voyage-through-the-emotion-of-stranger-things-e7bc8b2a6395)
+- [Creating a Modern OCR Pipeline Using Computer Vision and Deep Learning | Dr](https://blogs.dropbox.com/tech/2017/04/creating-a-modern-ocr-pipeline-using-computer-vision-and-deep-learning/)
+- [Fast and Accurate Document Detection for Scanning | Dropbox Tech Blog](https://blogs.dropbox.com/tech/2016/08/fast-and-accurate-document-detection-for-scanning/)
+- [Building a data science portfolio: Making a data science blog](https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/)
+- [Functional Works - Functional Programming Jargon](https://functional.works-hub.com/blog/Functional-Programming-Jargon)
+- [Colaboratory – Google](https://research.google.com/colaboratory/unregistered.html)
+- [Just enough Java for Hadoop - Stack Overflow](https://stackoverflow.com/questions/5732224/just-enough-java-for-hadoop)
+- [Machine Learning Pipelines](https://www.slideshare.net/jeykottalam/pipelines-ampcamp)
+- [12 Common CSS Mistakes Web Developers Make](https://www.webpagefx.com/blog/web-design/12-common-css-mistakes-web-developers-make/)
+- [getting-started - artificial](https://www.reddit.com/r/artificial/wiki/getting-started)
+- [Image Classification using MLP in Keras | Learn OpenCV](https://www.learnopencv.com/image-classification-using-feedforward-neural-network-in-keras/)
+- [Commoditizing Music Machine Learning : Services | Labs](https://labs.spotify.com/2016/08/07/commodity-music-ml-services/)
+- [Ask HN: What does your production machine learning pipeline look like? | Ha](https://news.ycombinator.com/item?id=13821217)
+- [Deep_Learning_Project](https://spandan-madan.github.io/DeepLearningProject/)
+- [https://www.reddit.com/r/computervision/comments/7av75f/keras_is_so_cool_try_this_for_yourself_code_and/?st=J9MYAYWQ&sh=98baf4cd](https://www.reddit.com/r/computervision/comments/7av75f/keras_is_so_cool_try_this_for_yourself_code_and/?st=J9MYAYWQ&sh=98baf4cd)
+- [Visualizing and Understanding Convolutional Networks](https://arxiv.org/pdf/1311.2901.pdf)
+- [ubuntu - How to wipe free disk space in Linux? - Super User](https://superuser.com/questions/19326/how-to-wipe-free-disk-space-in-linux)
+- [What's your best Jupyter notebook tips and tricks? : datascience](https://www.reddit.com/r/datascience/comments/7a6ilh/whats_your_best_jupyter_notebook_tips_and_tricks/)
+- [Sequence Classification with LSTM Recurrent Neural Networks in Python with](https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
+- [Startup Stash - Curated resources and tools for startups](http://startupstash.com/)
+- [Data science portfolio by Andrey Lukyanenko](https://erlemar.github.io/)
+- [Learn JavaScript & jQuery - Chapter 1: The ABC of Programming](http://javascriptbook.com/code/c01/)
+- [October Edition: Text Understanding – Towards Data Science – Medium](https://medium.com/towards-data-science/october-edition-text-understanding-c3594faf2964)
+- [https://forum.synology.com:443/enu/viewtopic.php?t=65685](https://forum.synology.com:443/enu/viewtopic.php?t=65685)
+- [http://www.tomshardware.com/answers/id-2618197/hard-drives-synology-ds412-plug-windows-computer.html](http://www.tomshardware.com/answers/id-2618197/hard-drives-synology-ds412-plug-windows-computer.html)
+- [http://superuser.com/questions/1034137/did-i-just-get-hacked](http://superuser.com/questions/1034137/did-i-just-get-hacked)
+- [http://academia.stackexchange.com/questions/10529/how-to-start-writing-my-literature-review](http://academia.stackexchange.com/questions/10529/how-to-start-writing-my-literature-review)
+- [https://www.elsevier.com/connect/infographic-how-to-read-a-scientific-paper](https://www.elsevier.com/connect/infographic-how-to-read-a-scientific-paper)
+- [http://www.rodsbooks.com/gdisk/wipegpt.html](http://www.rodsbooks.com/gdisk/wipegpt.html)
+- [https://mihail.stoynov.com/2013/04/22/force-boot-camp-into-using-an-iso-image-of-windows-to-create-the-usb-flash-drive-for-mountain-lion-with-updated-boot-camp/](https://mihail.stoynov.com/2013/04/22/force-boot-camp-into-using-an-iso-image-of-windows-to-create-the-usb-flash-drive-for-mountain-lion-with-updated-boot-camp/)
+- [http://bost.ocks.org/mike/shuffle/](http://bost.ocks.org/mike/shuffle/)
+- [http://www.ats.ucla.edu/stat/mult_pkg/faq/svy_howtochoose.htm](http://www.ats.ucla.edu/stat/mult_pkg/faq/svy_howtochoose.htm)
+- [http://cran.r-project.org/web/views/Optimization.html](http://cran.r-project.org/web/views/Optimization.html)
+- [http://vis.supstat.com/2013/03/gradient-descent-algorithm-with-r/](http://vis.supstat.com/2013/03/gradient-descent-algorithm-with-r/)
+- [http://gosukiwi.svbtle.com/vim-configuration-for-web-development](http://gosukiwi.svbtle.com/vim-configuration-for-web-development)
+- [http://benfrain.com/learning-vim-front-end-coding-month/](http://benfrain.com/learning-vim-front-end-coding-month/)
+- [https://github.com/whatyouhide/gotham-contrib](https://github.com/whatyouhide/gotham-contrib)
+- [http://zenorocha.github.io/dracula-theme/vim/](http://zenorocha.github.io/dracula-theme/vim/)
+- [https://github.com/chrishunt/color-schemes](https://github.com/chrishunt/color-schemes)
+- [http://vimawesome.com/](http://vimawesome.com/)
+- [https://github.com/sjl/badwolf](https://github.com/sjl/badwolf)
+- [https://kb.iu.edu/d/bciz](https://kb.iu.edu/d/bciz)
+- [http://neuralnetworksanddeeplearning.com/chap1.html](http://neuralnetworksanddeeplearning.com/chap1.html)
+- [http://benanne.github.io/2015/03/17/plankton.html](http://benanne.github.io/2015/03/17/plankton.html)
+- [http://www.kdnuggets.com/2015/09/free-data-science-books.html](http://www.kdnuggets.com/2015/09/free-data-science-books.html)
+- [http://www.kdnuggets.com/2014/11/9-must-have-skills-data-scientist.html](http://www.kdnuggets.com/2014/11/9-must-have-skills-data-scientist.html)
+- [https://www.macstories.net/ios/markdown-and-automation-experiments-with-1writer/](https://www.macstories.net/ios/markdown-and-automation-experiments-with-1writer/)
+- [https://24ways.org/2012/how-to-make-your-site-look-half-decent/](https://24ways.org/2012/how-to-make-your-site-look-half-decent/)
+- [https://blog.statsbot.co/machine-learning-algorithms-183cc73197c](https://blog.statsbot.co/machine-learning-algorithms-183cc73197c)
+- [The Essential NLP Guide for data scientists (codes for top 10 NLP tasks)](https://www.analyticsvidhya.com/blog/2017/10/essential-nlp-guide-data-scientists-top-10-nlp-tasks/)
+- [I wrote a Reddit bot in Python a few weeks back, and asked people if they w](https://www.reddit.com/r/Python/comments/78uvdw/i_wrote_a_reddit_bot_in_python_a_few_weeks_back/)
+- [Introducing the Data Science Maturity Model](https://blog.dominodatalab.com/introducing-the-data-science-maturity-model/)
+- [Don’t Build a Startup, Build a Movement – The Startup – Medium](https://medium.com/swlh/dont-build-a-startup-build-a-movement-15c31213168)
+- [http://linguisticmystic.com/2015/03/04/how-to-write-a-dissertation-in-latex-using-markdown/](http://linguisticmystic.com/2015/03/04/how-to-write-a-dissertation-in-latex-using-markdown/)
+- [http://www.sitepoint.com/creating-pdfs-from-markdown-with-pandoc-and-latex/](http://www.sitepoint.com/creating-pdfs-from-markdown-with-pandoc-and-latex/)
+- [https://learnxinyminutes.com/docs/javascript/](https://learnxinyminutes.com/docs/javascript/)
+- [http://bencane.com/2013/09/09/setting-process-cpu-priority-with-nice-and-renice/](http://bencane.com/2013/09/09/setting-process-cpu-priority-with-nice-and-renice/)
+- [https://www.quora.com/How-can-I-use-GitHub-to-get-better-at-coding](https://www.quora.com/How-can-I-use-GitHub-to-get-better-at-coding)
+- [http://karloespiritu.com/cheatsheets/](http://karloespiritu.com/cheatsheets/)
+- [http://mrbook.org/blog/tutorials/make/](http://mrbook.org/blog/tutorials/make/)
+- [http://brettromero.com/wordpress/data-science-kaggle-walkthrough-creating-model/](http://brettromero.com/wordpress/data-science-kaggle-walkthrough-creating-model/)
+- [https://developers.soundcloud.com/blog/soundclouds-data-science-process](https://developers.soundcloud.com/blog/soundclouds-data-science-process)
+- [terminology - What is a data scientist? - Cross Validated](https://stats.stackexchange.com/questions/195034/what-is-a-data-scientist)
+- [Three Effective Feature Selection Strategies – Towards Data Science – Mediu](https://medium.com/towards-data-science/three-effective-feature-selection-strategies-e1f86f331fb1)
+- [Batch normalization in Neural Networks – Towards Data Science – Medium](https://medium.com/towards-data-science/batch-normalization-in-neural-networks-1ac91516821c)
+- [Natural Language Generation at Google Research – Towards Data Science – Med](https://medium.com/towards-data-science/natural-language-generation-at-google-research-bbf2c3756d80)
+- [Introduction to web scraping with Python - Data, what now?](https://datawhatnow.com/introduction-web-scraping-python/)
+- [How to Clean Text for Machine Learning with Python - Machine Learning Maste](https://machinelearningmastery.com/clean-text-machine-learning-python/)
+- [Evolving the StarCraftII Build Order Meta | Online Profile](http://cole-maclean.github.io/blog/Evolving%20the%20StarCraftII%20Build%20Order%20Meta/)
+- [TensorFlow 101 · Mubaris NK](https://mubaris.com/2017-10-21/tensorflow-101)
+- [Simplified Docker-ing for Data Science — Part 1 – Becoming Human](https://becominghuman.ai/docker-for-data-science-part-1-dd41e5ef1d80)
+- [Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
+- [Ask HN: What steps do you take to plan a new project? | Hacker News](https://news.ycombinator.com/item?id=15524612)
+- [Support vector machines ( intuitive understanding ) — Part#2](https://medium.com/towards-data-science/support-vector-machines-intuitive-understanding-part-2-1046dd449c59)
+- [The Internet’s Best AI Courses(pt2) – Towards Data Science – Medium](https://medium.com/towards-data-science/the-internets-best-ai-courses-pt2-e32688725d3c)
+- [How I Start.](http://howistart.org/posts/go/1/)
+- [Data Lakes: A Sneak Peek Into Their Relevance In The Big Data Community](https://blog.rakam.io/data-lakes-a-sneak-peek-into-their-relevance-in-the-big-data-community-f3841e948dc1)
+- [What I’ve learned from competing in machine learning contests on Kaggle](https://medium.freecodecamp.org/what-i-learned-from-kaggle-contests-d3123e17a36b)
+- [Top 6 errors novice machine learning engineers make](https://medium.com/towards-data-science/top-6-errors-novice-machine-learning-engineers-make-e82273d394db)
+- [DYK flexdashboard solves Data Scientists’ javascript illiteracy](https://medium.com/towards-data-science/dyk-flexdashboard-solves-data-scientists-javascript-illiteracy-96b82a8d7f)
+- [Why Use Docker with R? A DevOps Perspective | R-bloggers](https://www.r-bloggers.com/why-use-docker-with-r-a-devops-perspective/)
+- [RNN made easy with MXNet R | R-bloggers](https://www.r-bloggers.com/rnn-made-easy-with-mxnet-r/)
+- [K-Means Clustering in Python · Mubaris NK](https://mubaris.com/2017-10-01/kmeans-clustering-in-python)
+- [Building a Neural Net from Scratch in Go](http://www.datadan.io/building-a-neural-net-from-scratch-in-go/)
+- [Becoming a Machine Learning Engineer | Step 2: Pick a Process](https://medium.com/towards-data-science/becoming-a-machine-learning-engineer-step-2-pick-a-process-942eef6ba8dd)
+- [Learning Maths for Machine Learning and Deep Learning](https://medium.com/towards-data-science/learning-maths-for-machine-learning-and-deep-learning-5509c097ee83)
+- [The Impressive Growth of R - Stack Overflow Blog](https://stackoverflow.blog/2017/10/10/impressive-growth-r/?cb=1)
+- [PyTorch vs. TensorFlow: 1 month summary – Towards Data Science – Medium](https://medium.com/towards-data-science/pytorch-vs-tensorflow-1-month-summary-35d138590f9)
+- [The first 150 days of van life - Ruby on Wheels](https://ruby-on-wheels.github.io/blog/the-first-150-days-of-van-life/)
+- [Data Science Simplified Part 11: Logistic Regression](https://medium.com/towards-data-science/data-science-simplified-part-11-logistic-regression-5ae8d994bf0e)
+- [Introduction and Basics - Python Reddit API Wrapper (PRAW) tutorial p.1 - Y](https://www.youtube.com/watch?v=NRgfgtzIhBQ)
+- [Mastering Python Web Scraping: Get Your Data Back – Hacker Noon](https://hackernoon.com/mastering-python-web-scraping-get-your-data-back-e9a5cc653d88)
+- [How to Generate FiveThirtyEight Graphs in Python](https://www.dataquest.io/blog/making-538-plots/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
+- [https://getpocket.com/explore/item/the-greatest-sales-deck-i-ve-ever-seen-1414678490](https://getpocket.com/explore/item/the-greatest-sales-deck-i-ve-ever-seen-1414678490)
+- [https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/](https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/)
+- [https://moz.com/blog/chat-bot](https://moz.com/blog/chat-bot)
+- [10 Linux Commands Every Developer Should Know - Azer Koçulu's Journal](http://azer.bike/journal/10-linux-commands-every-developer-should-know/)
+- [Designing Data-Intensive Applications (DDIA) — an O’Reilly book by Martin K](https://dataintensive.net/)
+- [Setting up Webpack, Babel and React from scratch, revisited · Muffin Man](https://stanko.github.io/webpack-babel-react-revisited/)
+- [How To Learn Vim: A Four Week Plan – Peter Jang – Medium](https://medium.com/@peterxjang/how-to-learn-vim-a-four-week-plan-cd8b376a9b85)
+- [Running Jupyter Notebook on Google Cloud Platform in 15 min](https://medium.com/towards-data-science/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52)
+- [Ask HN: What essay/blogpost do you keep going back to reread? | Hacker News](https://news.ycombinator.com/item?id=15406826)
+- [Applied Deep Learning - Part 3: Autoencoders – Towards Data Science – Mediu](https://medium.com/towards-data-science/applied-deep-learning-part-3-autoencoders-1c083af4d798)
+- [Visualizing MNIST: An Exploration of Dimensionality Reduction - colah's blo](http://colah.github.io/posts/2014-10-Visualizing-MNIST/)
+- [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
+- [Object detection: an overview in the age of Deep Learning - Tryolabs Blog](https://tryolabs.com/blog/2017/08/30/object-detection-an-overview-in-the-age-of-deep-learning/)
+- [Machine Learning Top 10 Articles For the Past Month (v.Sep 2017)](https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-v-sep-2017-c68f4b0b5e72)
+- [Using Scrapy to Build your Own Dataset – Towards Data Science – Medium](https://medium.com/towards-data-science/using-scrapy-to-build-your-own-dataset-64ea2d7d4673)
+- [Pur(r)ify Your Carets](http://rsangole.netlify.com/post/pur-r-ify-your-carets/?utm_content=buffer2e597&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [Artificial Intelligence Without Labeled Data – Towards Data Science – Mediu](https://medium.com/towards-data-science/artificial-intelligence-without-labeled-data-54cdbfbdaad2)
+- [Deep Learning for Object Detection: A Comprehensive Review](https://medium.com/towards-data-science/deep-learning-for-object-detection-a-comprehensive-review-73930816d8d9)
+- [https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/](https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/)
+
+## Read Archive
+
+- [AI Chat Bot in Python with AIML | DevDungeon](http://www.devdungeon.com/content/ai-chat-bot-python-aiml)
+- [Using a logbook to improve your programming | James Routley](https://routley.io/tech/2017/11/23/logbook.html)
+- [A Beginner’s Guide to Optimizing Pandas Code for Speed](https://engineering.upside.com/a-beginners-guide-to-optimizing-pandas-code-for-speed-c09ef2c6a4d6)
+- [The 7 Steps of Machine Learning – Towards Data Science – Medium](https://medium.com/towards-data-science/the-7-steps-of-machine-learning-2877d7e5548e)
